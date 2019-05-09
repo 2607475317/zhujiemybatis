@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/testmybatis?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+logging:
+  level:
+    com.w.zhujiemybatis.mapper: DEBUG #打印sql语句
+
